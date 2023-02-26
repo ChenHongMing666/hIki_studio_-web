@@ -31,6 +31,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    #我的程序组
+    "community",
+
+    #自带程序组
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
